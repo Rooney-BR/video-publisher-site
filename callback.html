@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VideoPublisher - Redirecting...</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: #f5f5f7; }
+        .card { text-align: center; background: white; padding: 40px; border-radius: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+        h2 { color: #667eea; }
+        p { color: #666; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>VideoPublisher</h2>
+        <p>Redirecting to your local app...</p>
+    </div>
+    <script>
+        var params = window.location.search;
+        window.location.href = "http://localhost:3000/callback/" + params;
+    </script>
+</body>
+</html>
